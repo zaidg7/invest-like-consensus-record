@@ -50,9 +50,22 @@ jobs:
              /tmp/api.json > "snapshots/$DATE.json"
           cp "snapshots/$DATE.json" latest.json
 
+          # Consensus 7 Index level history (same tamper-evidence). Tolerant:
+          # a 503 (index not yet initialized) skips the index snapshot
+          # without failing the cohort record above.
+          IDX_URL="https://invest-like.com/api/public/consensus-index"
+          if curl --fail --silent --max-time 120 "$IDX_URL" -o /tmp/index.json; then
+            mkdir -p index
+            cp /tmp/index.json "index/$DATE.json"
+            cp /tmp/index.json index-latest.json
+          else
+            echo "index endpoint unavailable; skipping index snapshot"
+          fi
+
           git config user.name "consensus-record-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add snapshots latest.json
+          [ -d index ] && git add index index-latest.json || true
           if git diff --cached --quiet; then
             echo "no changes to record"
             exit 0
