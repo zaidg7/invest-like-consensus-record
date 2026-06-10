@@ -1,0 +1,61 @@
+name: Record daily consensus snapshot
+
+# Runs AFTER invest-like's nightly price refresh (22:00 UTC) + scoring
+# pipeline, so each snapshot reflects the day's final data.
+on:
+  schedule:
+    - cron: '15 23 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch, hash-chain, commit
+        run: |
+          set -euo pipefail
+          DATE=$(date -u +%F)
+          URL="https://invest-like.com/api/public/consensus?min=5&limit=300"
+
+          curl --fail --silent --show-error --max-time 120 "$URL" -o /tmp/api.json
+
+          # Sanity gate: refuse to record obviously-broken data. A tiny or
+          # empty cohort means the upstream pipeline failed; recording it
+          # would pollute the permanent chain.
+          COHORT=$(jq -r '.cohort_size // 0' /tmp/api.json)
+          if [ "$COHORT" -lt 10 ]; then
+            echo "cohort_size=$COHORT looks wrong; refusing to record" >&2
+            exit 1
+          fi
+
+          # Hash chain: embed the SHA-256 of the newest PRIOR day's snapshot.
+          # Rewriting any historical file breaks every later link - that's
+          # the tamper-evidence. Same-day re-runs overwrite today's file but
+          # keep pointing at yesterday's, so the chain stays one-per-day.
+          PREV_FILE=$(ls snapshots/*.json 2>/dev/null | grep -v "$DATE" | sort | tail -1 || true)
+          if [ -n "$PREV_FILE" ]; then
+            PREV_JSON="\"$(sha256sum "$PREV_FILE" | cut -d' ' -f1)\""
+          else
+            PREV_JSON=null
+          fi
+
+          jq --arg ts "$(date -u +%FT%TZ)" --arg src "$URL" --argjson prev "$PREV_JSON" \
+             '{recorded_at_utc:$ts, prev_snapshot_sha256:$prev, source:$src, data:.}' \
+             /tmp/api.json > "snapshots/$DATE.json"
+          cp "snapshots/$DATE.json" latest.json
+
+          git config user.name "consensus-record-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add snapshots latest.json
+          if git diff --cached --quiet; then
+            echo "no changes to record"
+            exit 0
+          fi
+          git commit -m "record: consensus snapshot $DATE (cohort_size=$COHORT)"
+          git push
