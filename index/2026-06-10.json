@@ -1,4 +1,9 @@
 {
+  "index": "consensus7",
+  "available_indices": [
+    "consensus7",
+    "halal7"
+  ],
   "name": "invest-like Consensus 7 Index",
   "description": "Equal-weight, daily-rebalanced, price-return index of every US-listed stock currently passing all 7 of invest-like.com's investor frameworks (Buffett, Graham, Fisher, Lynch, Greenblatt, Munger, Smith). Monthly reconstitution.",
   "base": {
@@ -81,7 +86,7 @@
   "rules": {
     "eligibility": "bulls === 7 (all seven frameworks score the stock >= 60, i.e. B+ or better) with a positive quoted price",
     "weighting": "equal weight, rebalanced daily (index return = arithmetic mean of constituent price returns)",
-    "reconstitution": "first computation of each UTC month swaps the basket to the current 7/7 cohort",
+    "reconstitution": "first computation of each UTC month swaps the basket to the current eligible cohort",
     "base_level": 1000,
     "return_type": "price return (dividends not reinvested)"
   },

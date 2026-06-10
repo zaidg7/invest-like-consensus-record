@@ -1,11 +1,11 @@
 {
-  "index": "consensus7",
+  "index": "halal7",
   "available_indices": [
     "consensus7",
     "halal7"
   ],
-  "name": "invest-like Consensus 7 Index",
-  "description": "Equal-weight, daily-rebalanced, price-return index of every US-listed stock currently passing all 7 of invest-like.com's investor frameworks (Buffett, Graham, Fisher, Lynch, Greenblatt, Munger, Smith). Monthly reconstitution.",
+  "name": "invest-like Halal Consensus 7 Index",
+  "description": "Equal-weight, daily-rebalanced, price-return index of every US-listed stock that passes all 7 investor frameworks AND is AAOIFI Standard 21 compliant. The intersection of quality value investing and halal compliance. Monthly reconstitution.",
   "base": {
     "date": "2026-06-10",
     "level": 1000
@@ -14,7 +14,7 @@
     "date": "2026-06-10",
     "level": 1000,
     "since_inception_pct": 0,
-    "n_constituents": 57
+    "n_constituents": 51
   },
   "levels": [
     {
@@ -24,9 +24,7 @@
     }
   ],
   "constituents": [
-    "6146.T",
     "6857.T",
-    "6920.T",
     "7741.T",
     "9983.T",
     "AAPL",
@@ -38,7 +36,6 @@
     "ASML",
     "AVGO",
     "BAM",
-    "BEL.NS",
     "BKNG",
     "CTAS",
     "FAST",
@@ -46,7 +43,6 @@
     "FIX",
     "FTNT",
     "GAW.L",
-    "HLT",
     "IDXX",
     "IHG.L",
     "IRMD",
@@ -63,7 +59,6 @@
     "MSFT",
     "MTD",
     "NESTLEIND.NS",
-    "NP",
     "NSSC",
     "NVDA",
     "NXT",
@@ -71,7 +66,6 @@
     "RAA.DE",
     "ROL",
     "SCCO",
-    "SEZL",
     "SII",
     "SNT.WA",
     "TPL",
@@ -84,7 +78,7 @@
   ],
   "reconstitution_month": "2026-06",
   "rules": {
-    "eligibility": "bulls === 7 (all seven frameworks score the stock >= 60, i.e. B+ or better) with a positive quoted price",
+    "eligibility": "bulls === 7 (all seven frameworks score the stock >= 60) AND AAOIFI Standard 21 compliant, with a positive quoted price",
     "weighting": "equal weight, rebalanced daily (index return = arithmetic mean of constituent price returns)",
     "reconstitution": "first computation of each UTC month swaps the basket to the current eligible cohort",
     "base_level": 1000,
@@ -94,7 +88,8 @@
     "source": "invest-like.com",
     "index_page": "https://invest-like.com/consensus-index/",
     "methodology_url": "https://invest-like.com/methodology/",
+    "halal_methodology_doi": "10.5281/zenodo.20393706",
     "tamper_evident_record": "https://github.com/zaidg7/invest-like-consensus-record",
-    "license": "CC BY 4.0 - cite as 'the invest-like Consensus 7 Index'. Educational data, not investment advice."
+    "license": "CC BY 4.0 - cite as 'the invest-like Halal Consensus 7 Index'. Educational data, not investment advice."
   }
 }
