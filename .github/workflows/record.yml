@@ -61,11 +61,20 @@ jobs:
           else
             echo "index endpoint unavailable; skipping index snapshot"
           fi
+          # Halal Consensus 7 Index - same tamper-evidence, separate series.
+          if curl --fail --silent --max-time 120 "$IDX_URL?index=halal7" -o /tmp/index-halal.json; then
+            mkdir -p index-halal
+            cp /tmp/index-halal.json "index-halal/$DATE.json"
+            cp /tmp/index-halal.json index-halal-latest.json
+          else
+            echo "halal index unavailable; skipping halal snapshot"
+          fi
 
           git config user.name "consensus-record-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add snapshots latest.json
           [ -d index ] && git add index index-latest.json || true
+          [ -d index-halal ] && git add index-halal index-halal-latest.json || true
           if git diff --cached --quiet; then
             echo "no changes to record"
             exit 0
