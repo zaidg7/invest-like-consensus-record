@@ -1,0 +1,140 @@
+{
+  "index": "consensus7",
+  "available_indices": [
+    "consensus7",
+    "halal7"
+  ],
+  "name": "invest-like Consensus 7 Index",
+  "description": "Equal-weight, daily-rebalanced, price-return index of every US-listed stock currently passing all 7 of invest-like.com's investor frameworks (Buffett, Graham, Fisher, Lynch, Greenblatt, Munger, Smith). Monthly reconstitution.",
+  "base": {
+    "date": "2026-06-10",
+    "level": 1000
+  },
+  "latest": {
+    "date": "2026-06-19",
+    "level": 1012.359,
+    "since_inception_pct": 1.236,
+    "n_constituents": 57
+  },
+  "levels": [
+    {
+      "date": "2026-06-10",
+      "level": 1000,
+      "daily_return_pct": null
+    },
+    {
+      "date": "2026-06-11",
+      "level": 989.1631,
+      "daily_return_pct": -1.0837
+    },
+    {
+      "date": "2026-06-12",
+      "level": 989.1631,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-06-13",
+      "level": 1006.2799,
+      "daily_return_pct": 1.7304
+    },
+    {
+      "date": "2026-06-14",
+      "level": 1004.2585,
+      "daily_return_pct": -0.2009
+    },
+    {
+      "date": "2026-06-16",
+      "level": 1024.107,
+      "daily_return_pct": 1.9764
+    },
+    {
+      "date": "2026-06-17",
+      "level": 1024.107,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-06-18",
+      "level": 1012.359,
+      "daily_return_pct": -1.1471
+    },
+    {
+      "date": "2026-06-19",
+      "level": 1012.359,
+      "daily_return_pct": 0
+    }
+  ],
+  "constituents": [
+    "6146.T",
+    "6857.T",
+    "6920.T",
+    "7741.T",
+    "9983.T",
+    "AAPL",
+    "ABNB",
+    "ADSK",
+    "AMAT",
+    "ANET",
+    "APP",
+    "ASML",
+    "AVGO",
+    "BAM",
+    "BEL.NS",
+    "BKNG",
+    "CTAS",
+    "FAST",
+    "FICO",
+    "FIX",
+    "FTNT",
+    "GAW.L",
+    "HLT",
+    "IDXX",
+    "IHG.L",
+    "IRMD",
+    "ISRG",
+    "KLAC",
+    "LLY",
+    "LRCX",
+    "MA",
+    "MANH",
+    "MCO",
+    "MEDP",
+    "MNST",
+    "MSCI",
+    "MSFT",
+    "MTD",
+    "NESTLEIND.NS",
+    "NP",
+    "NSSC",
+    "NVDA",
+    "NXT",
+    "POWL",
+    "RAA.DE",
+    "ROL",
+    "SCCO",
+    "SEZL",
+    "SII",
+    "SNT.WA",
+    "TPL",
+    "TSM",
+    "UI",
+    "ULS",
+    "V",
+    "VRSN",
+    "VRT"
+  ],
+  "reconstitution_month": "2026-06",
+  "rules": {
+    "eligibility": "bulls === 7 (all seven frameworks score the stock >= 60, i.e. B+ or better) with a positive quoted price",
+    "weighting": "equal weight, rebalanced daily (index return = arithmetic mean of constituent price returns)",
+    "reconstitution": "first computation of each UTC month swaps the basket to the current eligible cohort",
+    "base_level": 1000,
+    "return_type": "price return (dividends not reinvested)"
+  },
+  "attribution": {
+    "source": "invest-like.com",
+    "index_page": "https://invest-like.com/consensus-index/",
+    "methodology_url": "https://invest-like.com/methodology/",
+    "tamper_evident_record": "https://github.com/zaidg7/invest-like-consensus-record",
+    "license": "CC BY 4.0 - cite as 'the invest-like Consensus 7 Index'. Educational data, not investment advice."
+  }
+}
