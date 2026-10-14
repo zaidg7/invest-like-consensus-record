@@ -11,9 +11,9 @@
     "level": 1000
   },
   "latest": {
-    "date": "2026-10-13",
-    "level": 1015.2988,
-    "since_inception_pct": 1.53,
+    "date": "2026-10-14",
+    "level": 1004.3524,
+    "since_inception_pct": 0.435,
     "n_constituents": 204
   },
   "levels": [
@@ -631,6 +631,11 @@
       "date": "2026-10-13",
       "level": 1015.2988,
       "daily_return_pct": 0
+    },
+    {
+      "date": "2026-10-14",
+      "level": 1004.3524,
+      "daily_return_pct": -1.0781
     }
   ],
   "constituents": [
