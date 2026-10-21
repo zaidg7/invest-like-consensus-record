@@ -1,6 +1,6 @@
 {
-  "recorded_at_utc": "2026-10-20T01:50:20Z",
-  "prev_snapshot_sha256": "ae67ad2d2f718ad2d79e92ab28f5a7590b854b612119970e9f5546cee09d53ee",
+  "recorded_at_utc": "2026-10-21T01:35:56Z",
+  "prev_snapshot_sha256": "208f1e9b8d5e8d8d17e7dbc3ed488d0e8777a00e3f5f56cbd0cffa5545a78598",
   "source": "https://invest-like.com/api/public/consensus?min=5&limit=300",
   "data": {
     "filter": {
@@ -9,7 +9,7 @@
     },
     "cohort_size": 300,
     "total_consensus_universe": 4769,
-    "generated_at": "2026-10-19T23:37:04.281Z",
+    "generated_at": "2026-10-20T15:22:37.382Z",
     "stocks": [
       {
         "ticker": "NVDA",
@@ -608,29 +608,6 @@
         "halal_status": "compliant",
         "country": "US",
         "url": "https://invest-like.com/buffett/abnb/"
-      },
-      {
-        "ticker": "GMEXICOB.MX",
-        "name": "Grupo México, S.A.B. de C.V.",
-        "sector": "Basic Materials",
-        "industry": "Other Industrial Metals & Mining",
-        "market_cap": 103580612245.52144,
-        "bulls": 7,
-        "bull_definition": "Number of invest-like.com's 7 frameworks rating this stock at score >= 60 (B+ or better).",
-        "composite_score": 68.71428571428571,
-        "top_grade": "A",
-        "bullish_frameworks": [
-          "buffett",
-          "graham",
-          "lynch",
-          "greenblatt",
-          "munger",
-          "fisher",
-          "smith"
-        ],
-        "halal_status": "compliant",
-        "country": "MX",
-        "url": "https://invest-like.com/buffett/gmexicob.mx/"
       },
       {
         "ticker": "MNST",
@@ -5070,28 +5047,6 @@
         "url": "https://invest-like.com/buffett/csco/"
       },
       {
-        "ticker": "GE",
-        "name": "GE Aerospace",
-        "sector": "Industrials",
-        "industry": "Aerospace & Defense",
-        "market_cap": 322972450816,
-        "bulls": 6,
-        "bull_definition": "Number of invest-like.com's 7 frameworks rating this stock at score >= 60 (B+ or better).",
-        "composite_score": 67.28571428571429,
-        "top_grade": "A",
-        "bullish_frameworks": [
-          "graham",
-          "lynch",
-          "greenblatt",
-          "munger",
-          "fisher",
-          "smith"
-        ],
-        "halal_status": "questionable",
-        "country": "US",
-        "url": "https://invest-like.com/buffett/ge/"
-      },
-      {
         "ticker": "TXN",
         "name": "Texas Instruments Incorporated",
         "sector": "Technology",
@@ -5178,6 +5133,28 @@
         "halal_status": "compliant",
         "country": "JP",
         "url": "https://invest-like.com/buffett/6098.t/"
+      },
+      {
+        "ticker": "ISRG",
+        "name": "Intuitive Surgical, Inc.",
+        "sector": "Healthcare",
+        "industry": "Medical Instruments & Supplies",
+        "market_cap": 153032982528,
+        "bulls": 6,
+        "bull_definition": "Number of invest-like.com's 7 frameworks rating this stock at score >= 60 (B+ or better).",
+        "composite_score": 72.42857142857143,
+        "top_grade": "A",
+        "bullish_frameworks": [
+          "buffett",
+          "graham",
+          "lynch",
+          "munger",
+          "fisher",
+          "smith"
+        ],
+        "halal_status": "compliant",
+        "country": "US",
+        "url": "https://invest-like.com/buffett/isrg/"
       },
       {
         "ticker": "BX",
@@ -6828,9 +6805,31 @@
         "halal_status": "compliant",
         "country": "JP",
         "url": "https://invest-like.com/buffett/3092.t/"
+      },
+      {
+        "ticker": "OR",
+        "name": "OR Royalties Inc.",
+        "sector": "Basic Materials",
+        "industry": "Gold",
+        "market_cap": 6518167040,
+        "bulls": 6,
+        "bull_definition": "Number of invest-like.com's 7 frameworks rating this stock at score >= 60 (B+ or better).",
+        "composite_score": 61.42857142857143,
+        "top_grade": "C",
+        "bullish_frameworks": [
+          "buffett",
+          "graham",
+          "greenblatt",
+          "munger",
+          "fisher",
+          "smith"
+        ],
+        "halal_status": "compliant",
+        "country": "CA",
+        "url": "https://invest-like.com/buffett/or/"
       }
     ],
-    "interpretation": "invest-like.com's consensus screen returns 300 stocks passing 5+ of 7 documented investor frameworks (Buffett, Graham, Fisher, Lynch, Greenblatt, Munger, Smith) as of 2026-10-19T23:37:04.281Z.",
+    "interpretation": "invest-like.com's consensus screen returns 300 stocks passing 5+ of 7 documented investor frameworks (Buffett, Graham, Fisher, Lynch, Greenblatt, Munger, Smith) as of 2026-10-20T15:22:37.382Z.",
     "attribution": {
       "source": "invest-like.com",
       "url": "https://invest-like.com/consensus/",

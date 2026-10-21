@@ -1,0 +1,893 @@
+{
+  "index": "halal7",
+  "available_indices": [
+    "consensus7",
+    "halal7"
+  ],
+  "name": "invest-like Halal Consensus 7 Index",
+  "description": "Equal-weight, daily-rebalanced, price-return index of every US-listed stock that passes all 7 investor frameworks AND is AAOIFI Standard 21 compliant. The intersection of quality value investing and halal compliance. Monthly reconstitution.",
+  "base": {
+    "date": "2026-06-10",
+    "level": 1000
+  },
+  "latest": {
+    "date": "2026-10-20",
+    "level": 978.4417,
+    "since_inception_pct": -2.156,
+    "n_constituents": 204
+  },
+  "levels": [
+    {
+      "date": "2026-06-10",
+      "level": 1000,
+      "daily_return_pct": null
+    },
+    {
+      "date": "2026-06-11",
+      "level": 984.8919,
+      "daily_return_pct": -1.5108
+    },
+    {
+      "date": "2026-06-12",
+      "level": 984.8919,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-06-13",
+      "level": 1002.8868,
+      "daily_return_pct": 1.8271
+    },
+    {
+      "date": "2026-06-14",
+      "level": 994.7486,
+      "daily_return_pct": -0.8115
+    },
+    {
+      "date": "2026-06-16",
+      "level": 1011.2118,
+      "daily_return_pct": 1.655
+    },
+    {
+      "date": "2026-06-17",
+      "level": 1011.2118,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-06-18",
+      "level": 995.1954,
+      "daily_return_pct": -1.5839
+    },
+    {
+      "date": "2026-06-19",
+      "level": 995.1954,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-06-20",
+      "level": 1005.379,
+      "daily_return_pct": 1.0233
+    },
+    {
+      "date": "2026-06-21",
+      "level": 1005.379,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-06-22",
+      "level": 1005.4166,
+      "daily_return_pct": 0.0037
+    },
+    {
+      "date": "2026-06-23",
+      "level": 1005.0089,
+      "daily_return_pct": -0.0406
+    },
+    {
+      "date": "2026-06-24",
+      "level": 986.587,
+      "daily_return_pct": -1.833
+    },
+    {
+      "date": "2026-06-25",
+      "level": 992.955,
+      "daily_return_pct": 0.6455
+    },
+    {
+      "date": "2026-06-26",
+      "level": 1000.9926,
+      "daily_return_pct": 0.8095
+    },
+    {
+      "date": "2026-06-27",
+      "level": 1000.3297,
+      "daily_return_pct": -0.0662
+    },
+    {
+      "date": "2026-06-28",
+      "level": 1000.3297,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-06-29",
+      "level": 1000.3087,
+      "daily_return_pct": -0.0021
+    },
+    {
+      "date": "2026-06-30",
+      "level": 1015.2055,
+      "daily_return_pct": 1.4892
+    },
+    {
+      "date": "2026-07-01",
+      "level": 1028.533,
+      "daily_return_pct": 1.3128
+    },
+    {
+      "date": "2026-07-02",
+      "level": 1032.2898,
+      "daily_return_pct": 0.3653
+    },
+    {
+      "date": "2026-07-03",
+      "level": 1033.3123,
+      "daily_return_pct": 0.099
+    },
+    {
+      "date": "2026-07-04",
+      "level": 1036.6349,
+      "daily_return_pct": 0.3215
+    },
+    {
+      "date": "2026-07-05",
+      "level": 1036.5826,
+      "daily_return_pct": -0.005
+    },
+    {
+      "date": "2026-07-06",
+      "level": 1036.5826,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-07-07",
+      "level": 1032.9452,
+      "daily_return_pct": -0.3509
+    },
+    {
+      "date": "2026-07-08",
+      "level": 1017.7194,
+      "daily_return_pct": -1.474
+    },
+    {
+      "date": "2026-07-09",
+      "level": 1004.1093,
+      "daily_return_pct": -1.3373
+    },
+    {
+      "date": "2026-07-10",
+      "level": 1012.6573,
+      "daily_return_pct": 0.8513
+    },
+    {
+      "date": "2026-07-11",
+      "level": 1016.0874,
+      "daily_return_pct": 0.3387
+    },
+    {
+      "date": "2026-07-12",
+      "level": 1016.0874,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-07-13",
+      "level": 1014.0095,
+      "daily_return_pct": -0.2045
+    },
+    {
+      "date": "2026-07-14",
+      "level": 1009.1028,
+      "daily_return_pct": -0.4839
+    },
+    {
+      "date": "2026-07-15",
+      "level": 1019.1475,
+      "daily_return_pct": 0.9954
+    },
+    {
+      "date": "2026-07-16",
+      "level": 1016.1866,
+      "daily_return_pct": -0.2905
+    },
+    {
+      "date": "2026-07-17",
+      "level": 1016.1866,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-07-18",
+      "level": 995.6054,
+      "daily_return_pct": -2.0253
+    },
+    {
+      "date": "2026-07-19",
+      "level": 994.3658,
+      "daily_return_pct": -0.1245
+    },
+    {
+      "date": "2026-07-20",
+      "level": 994.3658,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-07-21",
+      "level": 1008.6634,
+      "daily_return_pct": 1.4379
+    },
+    {
+      "date": "2026-07-22",
+      "level": 1006.2844,
+      "daily_return_pct": -0.2359
+    },
+    {
+      "date": "2026-07-23",
+      "level": 1005.2617,
+      "daily_return_pct": -0.1016
+    },
+    {
+      "date": "2026-07-24",
+      "level": 996.6986,
+      "daily_return_pct": -0.8518
+    },
+    {
+      "date": "2026-07-25",
+      "level": 996.6986,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-07-26",
+      "level": 996.9698,
+      "daily_return_pct": 0.0272
+    },
+    {
+      "date": "2026-07-27",
+      "level": 1007.4236,
+      "daily_return_pct": 1.0486
+    },
+    {
+      "date": "2026-07-28",
+      "level": 988.85,
+      "daily_return_pct": -1.8437
+    },
+    {
+      "date": "2026-07-29",
+      "level": 979.1185,
+      "daily_return_pct": -0.9841
+    },
+    {
+      "date": "2026-07-30",
+      "level": 975.8166,
+      "daily_return_pct": -0.3372
+    },
+    {
+      "date": "2026-07-31",
+      "level": 996.2226,
+      "daily_return_pct": 2.0912
+    },
+    {
+      "date": "2026-08-01",
+      "level": 996.2226,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-08-02",
+      "level": 996.0315,
+      "daily_return_pct": -0.0192
+    },
+    {
+      "date": "2026-08-03",
+      "level": 1009.2189,
+      "daily_return_pct": 1.324
+    },
+    {
+      "date": "2026-08-04",
+      "level": 1024.7622,
+      "daily_return_pct": 1.5401
+    },
+    {
+      "date": "2026-08-05",
+      "level": 1033.5242,
+      "daily_return_pct": 0.855
+    },
+    {
+      "date": "2026-08-07",
+      "level": 1033.5242,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-08-08",
+      "level": 1035.898,
+      "daily_return_pct": 0.2297
+    },
+    {
+      "date": "2026-08-09",
+      "level": 1035.898,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-08-10",
+      "level": 1039.6008,
+      "daily_return_pct": 0.3574
+    },
+    {
+      "date": "2026-08-11",
+      "level": 1039.6008,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-08-12",
+      "level": 1038.1624,
+      "daily_return_pct": -0.1384
+    },
+    {
+      "date": "2026-08-13",
+      "level": 1044.1756,
+      "daily_return_pct": 0.5792
+    },
+    {
+      "date": "2026-08-14",
+      "level": 1048.1709,
+      "daily_return_pct": 0.3826
+    },
+    {
+      "date": "2026-08-15",
+      "level": 1049.0961,
+      "daily_return_pct": 0.0883
+    },
+    {
+      "date": "2026-08-16",
+      "level": 1048.9267,
+      "daily_return_pct": -0.0161
+    },
+    {
+      "date": "2026-08-17",
+      "level": 1049.188,
+      "daily_return_pct": 0.0249
+    },
+    {
+      "date": "2026-08-18",
+      "level": 1045.4577,
+      "daily_return_pct": -0.3555
+    },
+    {
+      "date": "2026-08-19",
+      "level": 1036.7364,
+      "daily_return_pct": -0.8342
+    },
+    {
+      "date": "2026-08-20",
+      "level": 1036.7364,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-08-21",
+      "level": 1039.6282,
+      "daily_return_pct": 0.2789
+    },
+    {
+      "date": "2026-08-22",
+      "level": 1039.6282,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-08-23",
+      "level": 1039.8834,
+      "daily_return_pct": 0.0245
+    },
+    {
+      "date": "2026-08-24",
+      "level": 1039.8834,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-08-25",
+      "level": 1038.6461,
+      "daily_return_pct": -0.119
+    },
+    {
+      "date": "2026-08-27",
+      "level": 1041.1458,
+      "daily_return_pct": 0.2407
+    },
+    {
+      "date": "2026-08-28",
+      "level": 1050.4998,
+      "daily_return_pct": 0.8984
+    },
+    {
+      "date": "2026-08-29",
+      "level": 1052.6677,
+      "daily_return_pct": 0.2064
+    },
+    {
+      "date": "2026-08-30",
+      "level": 1050.8529,
+      "daily_return_pct": -0.1724
+    },
+    {
+      "date": "2026-08-31",
+      "level": 1050.8529,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-09-01",
+      "level": 1049.7796,
+      "daily_return_pct": -0.1021
+    },
+    {
+      "date": "2026-09-02",
+      "level": 1036.3946,
+      "daily_return_pct": -1.275
+    },
+    {
+      "date": "2026-09-03",
+      "level": 1030.2865,
+      "daily_return_pct": -0.5894
+    },
+    {
+      "date": "2026-09-04",
+      "level": 1031.6773,
+      "daily_return_pct": 0.135
+    },
+    {
+      "date": "2026-09-05",
+      "level": 1038.024,
+      "daily_return_pct": 0.6152
+    },
+    {
+      "date": "2026-09-06",
+      "level": 1038.024,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-09-07",
+      "level": 1038.1213,
+      "daily_return_pct": 0.0094
+    },
+    {
+      "date": "2026-09-08",
+      "level": 1037.7591,
+      "daily_return_pct": -0.0349
+    },
+    {
+      "date": "2026-09-09",
+      "level": 1036.1156,
+      "daily_return_pct": -0.1584
+    },
+    {
+      "date": "2026-09-10",
+      "level": 1030.0809,
+      "daily_return_pct": -0.5824
+    },
+    {
+      "date": "2026-09-11",
+      "level": 1030.0809,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-09-12",
+      "level": 1021.2157,
+      "daily_return_pct": -0.8606
+    },
+    {
+      "date": "2026-09-13",
+      "level": 1021.2157,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-09-14",
+      "level": 1021.2157,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-09-15",
+      "level": 1021.4327,
+      "daily_return_pct": 0.0212
+    },
+    {
+      "date": "2026-09-16",
+      "level": 1016.616,
+      "daily_return_pct": -0.4716
+    },
+    {
+      "date": "2026-09-17",
+      "level": 1002.4669,
+      "daily_return_pct": -1.3918
+    },
+    {
+      "date": "2026-09-18",
+      "level": 1006.0631,
+      "daily_return_pct": 0.3587
+    },
+    {
+      "date": "2026-09-19",
+      "level": 1026.6927,
+      "daily_return_pct": 2.0505
+    },
+    {
+      "date": "2026-09-20",
+      "level": 1026.7206,
+      "daily_return_pct": 0.0027
+    },
+    {
+      "date": "2026-09-21",
+      "level": 1026.7206,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-09-22",
+      "level": 1029.3123,
+      "daily_return_pct": 0.2524
+    },
+    {
+      "date": "2026-09-23",
+      "level": 1029.3123,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-09-24",
+      "level": 1030.8425,
+      "daily_return_pct": 0.1487
+    },
+    {
+      "date": "2026-09-25",
+      "level": 1022.6995,
+      "daily_return_pct": -0.7899
+    },
+    {
+      "date": "2026-09-26",
+      "level": 1022.7341,
+      "daily_return_pct": 0.0034
+    },
+    {
+      "date": "2026-09-27",
+      "level": 1024.1463,
+      "daily_return_pct": 0.1381
+    },
+    {
+      "date": "2026-09-28",
+      "level": 1025.0081,
+      "daily_return_pct": 0.0841
+    },
+    {
+      "date": "2026-09-29",
+      "level": 1025.0081,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-09-30",
+      "level": 1015.0828,
+      "daily_return_pct": -0.9683
+    },
+    {
+      "date": "2026-10-01",
+      "level": 1015.0828,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-10-02",
+      "level": 1015.0828,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-10-03",
+      "level": 1014.0021,
+      "daily_return_pct": -0.1065
+    },
+    {
+      "date": "2026-10-04",
+      "level": 1014.0021,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-10-05",
+      "level": 1014.9541,
+      "daily_return_pct": 0.0939
+    },
+    {
+      "date": "2026-10-06",
+      "level": 1014.9541,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-10-07",
+      "level": 1023.1768,
+      "daily_return_pct": 0.8102
+    },
+    {
+      "date": "2026-10-08",
+      "level": 1027.8595,
+      "daily_return_pct": 0.4577
+    },
+    {
+      "date": "2026-10-09",
+      "level": 1009.3763,
+      "daily_return_pct": -1.7982
+    },
+    {
+      "date": "2026-10-10",
+      "level": 1009.3639,
+      "daily_return_pct": -0.0012
+    },
+    {
+      "date": "2026-10-11",
+      "level": 1017.0808,
+      "daily_return_pct": 0.7645
+    },
+    {
+      "date": "2026-10-12",
+      "level": 1015.2988,
+      "daily_return_pct": -0.1752
+    },
+    {
+      "date": "2026-10-13",
+      "level": 1015.2988,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-10-14",
+      "level": 1004.3524,
+      "daily_return_pct": -1.0781
+    },
+    {
+      "date": "2026-10-15",
+      "level": 986.7492,
+      "daily_return_pct": -1.7527
+    },
+    {
+      "date": "2026-10-16",
+      "level": 990.4303,
+      "daily_return_pct": 0.3731
+    },
+    {
+      "date": "2026-10-17",
+      "level": 990.4303,
+      "daily_return_pct": 0
+    },
+    {
+      "date": "2026-10-18",
+      "level": 990.7707,
+      "daily_return_pct": 0.0344
+    },
+    {
+      "date": "2026-10-19",
+      "level": 984.326,
+      "daily_return_pct": -0.6505
+    },
+    {
+      "date": "2026-10-20",
+      "level": 978.4417,
+      "daily_return_pct": -0.5978
+    }
+  ],
+  "constituents": [
+    "001337.SZ",
+    "0128.KL",
+    "042700.KS",
+    "058470.KQ",
+    "062040.KS",
+    "1258.HK",
+    "1303.SR",
+    "1519.TW",
+    "1523.HK",
+    "1609.HK",
+    "1INN.DE",
+    "2059.TW",
+    "2222.T",
+    "2259.HK",
+    "2345.TW",
+    "2360.TW",
+    "2371.T",
+    "2589.HK",
+    "267260.KS",
+    "278470.KS",
+    "300308.SZ",
+    "300394.SZ",
+    "300502.SZ",
+    "301696.SZ",
+    "3017.TW",
+    "3131.TWO",
+    "3293.TWO",
+    "3529.TWO",
+    "3563.TW",
+    "3653.TW",
+    "3923.T",
+    "3939.HK",
+    "456A.T",
+    "4728.TWO",
+    "483650.KS",
+    "5032.T",
+    "5274.TWO",
+    "5326.KL",
+    "5357.KL",
+    "605117.SS",
+    "6187.TWO",
+    "6442.TW",
+    "6515.TW",
+    "6739.TWO",
+    "6777.T",
+    "6805.TW",
+    "6857.T",
+    "688188.SS",
+    "688617.SS",
+    "7203.SR",
+    "7741.T",
+    "7749.TW",
+    "7750.TW",
+    "7769.TW",
+    "7861.TWO",
+    "7915.TWO",
+    "8210.TW",
+    "8313.SR",
+    "8932.TWO",
+    "9557.SR",
+    "9633.HK",
+    "9983.T",
+    "9992.HK",
+    "AAPL",
+    "ABBOTINDIA.BO",
+    "ABNB",
+    "ABSLAMC.BO",
+    "ACLN.SW",
+    "ADSK",
+    "AJANTPHARM.NS",
+    "AJB.L",
+    "ALK-B.CO",
+    "ALSEM.PA",
+    "AMAT",
+    "ANANDRATHI.NS",
+    "ANET",
+    "ANTHEM.BO",
+    "ANTHEM.NS",
+    "AOF.DE",
+    "APH",
+    "APN.L",
+    "APP",
+    "ASML",
+    "AVGO",
+    "AVS.DE",
+    "BAJAJCON.NS",
+    "BAM",
+    "BKNG",
+    "BRKN.SW",
+    "BSE.NS",
+    "CAMS.BO",
+    "CAMX.ST",
+    "CDSL.NS",
+    "CHEMM.CO",
+    "CNTL.SW",
+    "COLPAL.BO",
+    "CTAS",
+    "CUMMINSIND.NS",
+    "CUPID.BO",
+    "DOL.TO",
+    "ENRIN.NS",
+    "ESABINDIA.BO",
+    "FAST",
+    "FICO",
+    "FIX",
+    "FPH.AX",
+    "FTC.L",
+    "FTNT",
+    "GAW.L",
+    "GILLETTE.NS",
+    "GMEXICOB.MX",
+    "GOOG",
+    "GOOGL",
+    "GRGD.TO",
+    "GROWW.BO",
+    "GROWW.NS",
+    "GTT.PA",
+    "GVT&D.NS",
+    "HACK.ST",
+    "HAUTO.OL",
+    "HBLENGINE.BO",
+    "HBLENGINE.NS",
+    "HINDCOPPER.BO",
+    "IBKR",
+    "IDXX",
+    "IGIL.BO",
+    "IHG.L",
+    "IKS.BO",
+    "IKS.NS",
+    "INGERRAND.BO",
+    "INOXINDIA.BO",
+    "IRCTC.BO",
+    "IRMD",
+    "JSLL.BO",
+    "JSLL.NS",
+    "KFINTECH.NS",
+    "KLAC",
+    "KRK.WA",
+    "LALPATHLAB.BO",
+    "LLY",
+    "LRCX",
+    "MA",
+    "MANH",
+    "MANORAMA.NS",
+    "MARICO.NS",
+    "MCO",
+    "MCX.BO",
+    "MEDP",
+    "METROBRAND.BO",
+    "MNST",
+    "MSCI",
+    "MSFT",
+    "MTD",
+    "MYCR.ST",
+    "NAM-INDIA.BO",
+    "NESTLEIND.NS",
+    "NSSC",
+    "NVDA",
+    "NXT",
+    "OFSS.BO",
+    "PAGEIND.NS",
+    "PGHH.BO",
+    "PGHL.NS",
+    "PHN.MI",
+    "PIDILITIND.BO",
+    "PLEJD.ST",
+    "PME.AX",
+    "POWL",
+    "PRUDENT.NS",
+    "QLTU.TA",
+    "RAA.DE",
+    "RAINBOW.BO",
+    "RMS.PA",
+    "ROL",
+    "RPEL.BO",
+    "S68.SI",
+    "SALIK.AE",
+    "SANOFICONR.BO",
+    "SANOFICONR.NS",
+    "SCCO",
+    "SECT-B.ST",
+    "SII",
+    "SJS.NS",
+    "SKS.AX",
+    "SLYG.DE",
+    "SNT.WA",
+    "SOLARINDS.BO",
+    "SUDEEPPHRM.NS",
+    "TASE.TA",
+    "THYROCARE.BO",
+    "TIPSMUSIC.BO",
+    "TNE.AX",
+    "TPL",
+    "TRAVELFOOD.BO",
+    "TRAVELFOOD.NS",
+    "TRITURBINE.BO",
+    "UI",
+    "ULS",
+    "V",
+    "VIJAYA.NS",
+    "VRSK",
+    "VRSN",
+    "VRT",
+    "WAWI.OL"
+  ],
+  "reconstitution_month": "2026-10",
+  "rules": {
+    "eligibility": "bulls === 7 (all seven frameworks score the stock >= 60) AND AAOIFI Standard 21 compliant, with a positive quoted price",
+    "weighting": "equal weight, rebalanced daily (index return = arithmetic mean of constituent price returns)",
+    "reconstitution": "first computation of each UTC month swaps the basket to the current eligible cohort",
+    "base_level": 1000,
+    "return_type": "price return (dividends not reinvested)"
+  },
+  "attribution": {
+    "source": "invest-like.com",
+    "index_page": "https://invest-like.com/consensus-index/",
+    "methodology_url": "https://invest-like.com/methodology/",
+    "halal_methodology_doi": "10.5281/zenodo.20393706",
+    "tamper_evident_record": "https://github.com/zaidg7/invest-like-consensus-record",
+    "license": "CC BY 4.0: cite as 'the invest-like Halal Consensus 7 Index'. Educational data, not investment advice."
+  }
+}
