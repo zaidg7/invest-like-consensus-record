@@ -7,12 +7,10 @@ Greenblatt, Munger, Terry Smith).
 
 ## Why this exists
 
-invest-like publishes a track record: the cohort of stocks passing **all 7**
-frameworks beat the S&P 500 by a median **+73.8 percentage points over 5
-years** (n = 47). The standard, fair objection to any such claim is
-*"self-published backtest - how do I know the picks weren't backfilled?"*
+This is a public, timestamped list of what the screen showed each day. It is not a
+return claim: invest-like makes no claim about past or future returns.
 
-This repository is the answer. Every day, an automated GitHub Actions
+Every day, an automated GitHub Actions
 workflow (in this repo, code visible to everyone) fetches the **public**
 consensus API and commits the complete 5+/7 cohort here. From that point on:
 
