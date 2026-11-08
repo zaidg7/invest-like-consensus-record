@@ -1,6 +1,6 @@
 {
-  "recorded_at_utc": "2026-11-07T02:49:27Z",
-  "prev_snapshot_sha256": "8276570a0fe2f034079cf2d4f745414b38f193af940d2d10fecc881358d7caac",
+  "recorded_at_utc": "2026-11-08T02:30:57Z",
+  "prev_snapshot_sha256": "a564ec2cc4e86aa8e6a5ec4e4e4f8164cffd42097bdf99313173ee46a03838cd",
   "source": "https://invest-like.com/api/public/consensus?min=5&limit=300",
   "data": {
     "filter": {
